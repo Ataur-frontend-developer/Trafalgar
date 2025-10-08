@@ -10,6 +10,7 @@
 .home {
   background: #fff;
   padding-top: 30px;
+  padding: 0 30px;
 }
 
 /* navbar style  */
@@ -195,6 +196,7 @@
   align-items: center;
   justify-content: center;
   gap: 150px;
+  padding: 0 30px;
 }
 
 .leading-content .left {
@@ -284,14 +286,17 @@
 
 .customer {
   background: linear-gradient(to right, #5a98f2, #67c3f3);
-  margin: 0 300px;
+  width: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
   padding: 50px 0;
   color: white;
+  position: relative;
   margin-bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .customer h1 {
@@ -411,7 +416,7 @@
   justify-content: center;
   padding: 10px 50px;
   gap: 100px;
-  padding: 100px 0;
+  padding: 100px 30px;
 }
 
 .footer .footer-content {
